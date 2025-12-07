@@ -1,0 +1,55 @@
+# ----- Unity auto-generated junk -----
+[Ll]ibrary/
+[Tt]emp/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+Recordings/
+UserSettings/
+MemoryCaptures/
+[Oo]bj/
+*.pidb
+*.booproj
+*.svd
+
+# Unity cache
+UnityCache/
+.cache/
+
+# ----- Ignore Visual Studio’s workspace -----
+.vs/
+
+# ----- You don't want Packages -----
+Packages/
+!Packages/manifest.json
+!Packages/packages-lock.json
+
+# ----- OS noise -----
+.DS_Store
+Thumbs.db
+
+# ----- Visual Studio / Rider -----
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.pdb
+*.cache
+*.config
+*.apk
+*.aab
+
+# ----- Only keep your own Assets content -----
+Assets/AssetStoreTools*
+Assets/**/*.cs.meta
+Assets/**/Editor.meta
+
+# (Optional) If you want to keep all your Assets content, remove the rules above.
+
+ ----- Ignore meta files you don't want -----
+ If you want meta files versioned, remove this line
+*.meta

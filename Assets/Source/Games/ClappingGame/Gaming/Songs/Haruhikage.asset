@@ -1,0 +1,831 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abd61dcff971559489229970d2817aed, type: 3}
+  m_Name: Haruhikage
+  m_EditorClassIdentifier: 
+  songName: aaa
+  timeStamps:
+  - judgeTimestamp_ms: 0
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 952.3809523809524
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 1904.7619047619048
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 2857.1428571428573
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 3809.5238095238096
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 4761.904761904762
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 5714.285714285715
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 6666.666666666667
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 7619.047619047619
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 8571.428571428572
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 9523.809523809525
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 10476.190476190477
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 11428.57142857143
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 12380.952380952382
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 13333.333333333334
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 14285.714285714286
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 15238.095238095239
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 16190.47619047619
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 17142.857142857145
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 18095.238095238095
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 19047.61904761905
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 20000
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 20952.380952380954
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 21904.761904761905
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 22857.14285714286
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 23809.52380952381
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 24761.904761904763
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 25714.285714285714
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 26666.666666666668
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 27619.04761904762
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 28571.428571428572
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 29523.809523809523
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 30476.190476190477
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 31428.57142857143
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 32380.95238095238
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 33333.333333333336
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 34285.71428571429
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 35238.09523809524
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 36190.47619047619
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 37142.857142857145
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 38095.2380952381
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 39047.619047619046
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 40000
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 40952.380952380954
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 41904.76190476191
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 42857.142857142855
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 43809.52380952381
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 44761.90476190476
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 45714.28571428572
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 46666.66666666667
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 47619.04761904762
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 48571.42857142857
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 49523.80952380953
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 50476.19047619048
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 51428.57142857143
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 52380.95238095238
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 53333.333333333336
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 54285.71428571429
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 55238.09523809524
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 56190.47619047619
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 57142.857142857145
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 58095.2380952381
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 59047.619047619046
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 60000
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 60952.380952380954
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 61904.76190476191
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 62857.14285714286
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 63809.52380952381
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 64761.90476190476
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 65714.28571428571
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 66666.66666666667
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 67619.04761904762
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 68571.42857142858
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 69523.80952380953
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 70476.19047619047
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 71428.57142857143
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 72380.95238095238
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 73333.33333333333
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 74285.71428571429
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 75238.09523809524
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 76190.4761904762
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 77142.85714285714
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 78095.23809523809
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 79047.61904761905
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 80000
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 80952.38095238096
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 81904.76190476191
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 82857.14285714286
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 83809.52380952382
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 84761.90476190476
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 85714.28571428571
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 86666.66666666667
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 87619.04761904762
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 88571.42857142858
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 89523.80952380953
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 90476.19047619047
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 91428.57142857143
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 92380.95238095238
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 93333.33333333334
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 94285.71428571429
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 95238.09523809524
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 96190.4761904762
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 97142.85714285714
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 98095.23809523809
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 99047.61904761905
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 100000
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 100952.38095238096
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 101904.76190476191
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 102857.14285714286
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 103809.52380952382
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 104761.90476190476
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 105714.28571428571
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 106666.66666666667
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 107619.04761904762
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 108571.42857142858
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 109523.80952380953
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 110476.19047619047
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 111428.57142857143
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 112380.95238095238
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 113333.33333333334
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 114285.71428571429
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 115238.09523809524
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 116190.4761904762
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 117142.85714285714
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 118095.23809523809
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 119047.61904761905
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 120000
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 120952.38095238096
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 121904.76190476191
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 122857.14285714286
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 123809.52380952382
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 124761.90476190476
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 125714.28571428572
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 126666.66666666667
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 127619.04761904762
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 128571.42857142858
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 129523.80952380953
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 130476.19047619047
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 131428.57142857142
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 132380.9523809524
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 133333.33333333334
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 134285.7142857143
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 135238.09523809524
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 136190.47619047618
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 137142.85714285716
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 138095.2380952381
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 139047.61904761905
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 140000
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 140952.38095238095
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 141904.76190476192
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 142857.14285714287
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 143809.52380952382
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 144761.90476190476
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 145714.2857142857
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 146666.66666666666
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 147619.04761904763
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 148571.42857142858
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 149523.80952380953
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 150476.19047619047
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 151428.57142857142
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 152380.9523809524
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 153333.33333333334
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 154285.7142857143
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 155238.09523809524
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 156190.47619047618
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 157142.85714285716
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 158095.2380952381
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 159047.61904761905
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 160000
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 160952.38095238095
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 161904.76190476192
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 162857.14285714287
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 163809.52380952382
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 164761.90476190476
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 165714.2857142857
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 166666.66666666666
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 167619.04761904763
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 168571.42857142858
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 169523.80952380953
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 170476.19047619047
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 171428.57142857142
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 172380.9523809524
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 173333.33333333334
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 174285.7142857143
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 175238.09523809524
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 176190.47619047618
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 177142.85714285716
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 178095.2380952381
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 179047.61904761905
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 180000
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 180952.38095238095
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 181904.76190476192
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 182857.14285714287
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 183809.52380952382
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 184761.90476190476
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 185714.2857142857
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 186666.6666666667
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 187619.04761904763
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 188571.42857142858
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 189523.80952380953
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 190476.19047619047
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 191428.57142857142
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 192380.9523809524
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 193333.33333333334
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 194285.7142857143
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 195238.09523809524
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 196190.47619047618
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 197142.85714285716
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 198095.2380952381
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 199047.61904761905
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 200000
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 200952.38095238095
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 201904.76190476192
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 202857.14285714287
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 203809.52380952382
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 204761.90476190476
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 205714.2857142857
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 206666.6666666667
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 207619.04761904763
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 208571.42857142858
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 209523.80952380953
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 210476.19047619047
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 211428.57142857142
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 212380.9523809524
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 213333.33333333334
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 214285.7142857143
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 215238.09523809524
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 216190.47619047618
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 217142.85714285716
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 218095.2380952381
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 219047.61904761905
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 220000
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 220952.38095238095
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 221904.76190476192
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 222857.14285714287
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 223809.52380952382
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 224761.90476190476
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 225714.2857142857
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 226666.6666666667
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 227619.04761904763
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 228571.42857142858
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 229523.80952380953
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 230476.19047619047
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 231428.57142857145
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 232380.9523809524
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 233333.33333333334
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 234285.7142857143
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 235238.09523809524
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 236190.47619047618
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 237142.85714285716
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 238095.2380952381
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 239047.61904761905
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 240000
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 240952.38095238095
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 241904.76190476192
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 242857.14285714287
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 243809.52380952382
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 244761.90476190476
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 245714.2857142857
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 246666.6666666667
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 247619.04761904763
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 248571.42857142858
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 249523.80952380953
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 250476.19047619047
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 251428.57142857145
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 252380.9523809524
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 253333.33333333334
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 254285.7142857143
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 255238.09523809524
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 256190.47619047618
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 257142.85714285716
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  video: {fileID: 32900000, guid: 1cc2e5e215e65e84aa59ebef04d1d622, type: 3}
+  audio: {fileID: 8300000, guid: 92cdc4fafa11fdd4abe10139e895b800, type: 3}
