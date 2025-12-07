@@ -87,6 +87,7 @@ public class HandGestureDetector : IDetector
         if (Vector3.Dot(v, Vector3.forward) > 0.07f)
         {
             ThrowThisUpdate = true;
+            Debug.LogWarning("右手扔球");
         }
     }
 
@@ -100,7 +101,7 @@ public class HandGestureDetector : IDetector
         if (wrist.y - lastWristRight.Value.y < -0.1f)
         {
             PullDownThisUpdate = true;
-            Debug.Log("拉灯绳");
+            Debug.LogWarning("拉灯绳");
         }
     }
 
@@ -120,6 +121,7 @@ public class HandGestureDetector : IDetector
         if (Mathf.Abs(angle) > 30f)
         {
             RotateThisUpdate = true;
+            Debug.LogWarning("手腕旋转");
         }
     }
 
@@ -137,6 +139,7 @@ public class HandGestureDetector : IDetector
         {
             TaikoHitLeftThisUpdate = true;
             lastHitLeftTime = Time.time * 1000;
+            Debug.LogWarning("左手敲击（太鼓达人）");
         }
     }
 
@@ -154,6 +157,7 @@ public class HandGestureDetector : IDetector
         {
             TaikoHitRightThisUpdate = true;
             lastHitRightTime = Time.time * 1000;
+            Debug.LogWarning("右手敲击（太鼓达人）");
         }
     }
 }

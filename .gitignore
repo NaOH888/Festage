@@ -52,4 +52,4 @@ Assets/**/Editor.meta
 
  ----- Ignore meta files you don't want -----
  If you want meta files versioned, remove this line
-*.meta
+#*.meta

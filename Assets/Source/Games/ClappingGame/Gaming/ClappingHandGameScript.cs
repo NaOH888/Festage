@@ -236,23 +236,23 @@ public class ClappingHandGameScript : MonoBehaviour, InputHandler
         }
         if (timer_after_all_down_s > 2)
         {
-            if (current_song_idx < songs.Count)
+            if (current_song_idx + 1 < songs.Count)
             {
-                //总之，如果歌还没放完就放下一首
                 current_song_idx += 1;
                 bool res = await FadeUtility.FadeOutAsync(canvas, 0.5f);
                 if (!res) return;
                 ResetSong(songs[current_song_idx]);
+                timer_after_all_down_s = 0f; // 重置，避免立即再次触发
                 await FadeUtility.FadeInAsync(canvas, 0.5f);
             }
             else
             {
-                ClappingGame game = GetComponentInParent<ClappingGame>();
-                game.ChangeToSettleGame();
+                GetComponentInParent<ClappingGame>().ChangeToSettleGame();
             }
-                
-
         }
+
+
+    
 
     }
     private void MissOn(int idx)
