@@ -44,9 +44,7 @@ Thumbs.db
 *.aab
 
 # ----- Only keep your own Assets content -----
-Assets/AssetStoreTools*
-Assets/**/*.cs.meta
-Assets/**/Editor.meta
+
 
 # (Optional) If you want to keep all your Assets content, remove the rules above.
 
