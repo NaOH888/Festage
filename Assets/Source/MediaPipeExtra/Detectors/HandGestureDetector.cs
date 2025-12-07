@@ -49,7 +49,7 @@ public class HandGestureDetector : IDetector
         if (person.Pose == null) return;
 
         // ❗ GetValidLandmarks 返回 Vector3?[]
-        var LM = person.Pose.GetValidLandmarks();
+        var LM = person.Pose.GetSmooth();
         if (LM == null || LM.Length < 33) return;
 
         // 安全读取
@@ -61,14 +61,11 @@ public class HandGestureDetector : IDetector
         {
             DetectThrowMotion(wristR.Value);
             DetectPullDown(wristR.Value);
+            DetectTaikoHitRight(wristR);
         }
-
-        // 旋转手腕需要 16,20,22 三个点
-        DetectRotateMotion(wristR, LM);
 
         // ====== 太鼓达人 ======
         DetectTaikoHitLeft(wristL);
-        DetectTaikoHitRight(wristR);
 
         // 记录
         lastWristRight = wristR;
@@ -105,25 +102,6 @@ public class HandGestureDetector : IDetector
         }
     }
 
-    // ============================================================
-    // 3. 手腕旋转
-    // ============================================================
-    private void DetectRotateMotion(Vector3? wrist, Vector3?[] lm)
-    {
-        // 任意缺失就跳过
-        if (!wrist.HasValue || !lm[20].HasValue || !lm[22].HasValue) return;
-
-        Vector3 v1 = lm[20].Value - wrist.Value; // index
-        Vector3 v2 = lm[22].Value - wrist.Value; // thumb
-
-        float angle = Vector3.SignedAngle(v1, v2, Vector3.forward);
-
-        if (Mathf.Abs(angle) > 30f)
-        {
-            RotateThisUpdate = true;
-            Debug.LogWarning("手腕旋转");
-        }
-    }
 
     // ============================================================
     // 4. 左手敲击（太鼓达人）

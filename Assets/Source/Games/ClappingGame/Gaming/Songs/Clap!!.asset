@@ -1,0 +1,783 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abd61dcff971559489229970d2817aed, type: 3}
+  m_Name: Clap!!
+  m_EditorClassIdentifier: 
+  songName: 
+  timeStamps:
+  - judgeTimestamp_ms: 0
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 500
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 1000
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 1500
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 2000
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 2500
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 3000
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 3500
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 4000
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 4500
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 5000
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 5500
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 6000
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 6500
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 7000
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 7500
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 8000
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 8500
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 9000
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 9500
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 10000
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 10500
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 11000
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 11500
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 12000
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 12500
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 13000
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 13500
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 14000
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 14500
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 15000
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 15500
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 16000
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 16500
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 17000
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 17500
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 18000
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 18500
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 19000
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 19500
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 20000
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 20500
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 21000
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 21500
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 22000
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 22500
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 23000
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 23500
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 24000
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 24500
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 25000
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 25500
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 26000
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 26500
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 27000
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 27500
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 28000
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 28500
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 29000
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 29500
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 30000
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 30500
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 31000
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 31500
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 32000
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 32500
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 33000
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 33500
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 34000
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 34500
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 35000
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 35500
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 36000
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 36500
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 37000
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 37500
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 38000
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 38500
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 39000
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 39500
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 40000
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 40500
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 41000
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 41500
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 42000
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 42500
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 43000
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 43500
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 44000
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 44500
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 45000
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 45500
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 46000
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 46500
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 47000
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 47500
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 48000
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 48500
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 49000
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 49500
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 50000
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 50500
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 51000
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 51500
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 52000
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 52500
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 53000
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 53500
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 54000
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 54500
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 55000
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 55500
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 56000
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 56500
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 57000
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 57500
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 58000
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 58500
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 59000
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 59500
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 60000
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 60500
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 61000
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 61500
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 62000
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 62500
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 63000
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 63500
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 64000
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 64500
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 65000
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 65500
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 66000
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 66500
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 67000
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 67500
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 68000
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 68500
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 69000
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 69500
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 70000
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 70500
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 71000
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 71500
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 72000
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 72500
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 73000
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 73500
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 74000
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 74500
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 75000
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 75500
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 76000
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 76500
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 77000
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 77500
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 78000
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 78500
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 79000
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 79500
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 80000
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 80500
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 81000
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 81500
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 82000
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 82500
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 83000
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 83500
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 84000
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 84500
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 85000
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 85500
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 86000
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 86500
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 87000
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 87500
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 88000
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 88500
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 89000
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 89500
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 90000
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 90500
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 91000
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 91500
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 92000
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 92500
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 93000
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 93500
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 94000
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 94500
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 95000
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 95500
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 96000
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 96500
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 97000
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 97500
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 98000
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 98500
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 99000
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 99500
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 100000
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 100500
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 101000
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 101500
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 102000
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 102500
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 103000
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 103500
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 104000
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 104500
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 105000
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 105500
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 106000
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 106500
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 107000
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 107500
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 108000
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 108500
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 109000
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 109500
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 110000
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 110500
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 111000
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 111500
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 112000
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 112500
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 113000
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 113500
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 114000
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 114500
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 115000
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 115500
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 116000
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 116500
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 117000
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 117500
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 118000
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 118500
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 119000
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 119500
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 120000
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 120500
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 121000
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 121500
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 122000
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 122500
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 123000
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 123500
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 124000
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 124500
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 125000
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 125500
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 126000
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 126500
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  - judgeTimestamp_ms: 127000
+    perfectThres_ms: 400
+    showing_duration_ms: 1200
+  video: {fileID: 32900000, guid: aa704a8764d00e244be4758cd061a655, type: 3}
+  audio: {fileID: 8300000, guid: 5bfcec65a60b0f64fa41ee34420ab7b5, type: 3}

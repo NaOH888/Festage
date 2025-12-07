@@ -102,6 +102,7 @@ public class ClappingHandGameScript : MonoBehaviour, InputHandler
         }
         player.Stop();
         audio_source.Stop();
+        
 
         player.clip = song.video;
         song.audio.LoadAudioData();
@@ -112,7 +113,7 @@ public class ClappingHandGameScript : MonoBehaviour, InputHandler
         
         _internal_dsp_start_s = AudioSettings.dspTime;
 
-
+        timer_after_all_down_s = 0;
 
         current_song_stamps = new List<ClapTimeStampInfo>(song.timeStamps);
         current_song_stamps.Sort();
@@ -169,9 +170,9 @@ public class ClappingHandGameScript : MonoBehaviour, InputHandler
 
     }
 
-    
     async void Update()
     {
+        if (!isPlaying) return;
 
         if (AudioSettings.dspTime >= _internal_dsp_start_s)
             player.playbackSpeed = 1;
@@ -179,8 +180,9 @@ public class ClappingHandGameScript : MonoBehaviour, InputHandler
         double currentTime_ms = GetCurrentSongTime_ms();
 
 
+
         //先检测队列，如果时间到了该“显示”的时候，就放入对应玩家的stamp列表中
-        if(pendingStamps.Count != 0)
+        if (pendingStamps.Count != 0)
         {
             ClapTimeStampInfo inf = pendingStamps.Peek();
             if (inf.judgeTimestamp_ms - currentTime_ms < inf.showing_duration_ms)
@@ -228,16 +230,18 @@ public class ClappingHandGameScript : MonoBehaviour, InputHandler
         {
             end_game_tick &= playerStampArr[i].Count == 0;
         }
-        end_game_tick &= !player.isPlaying;
-        end_game_tick &= !audio_source.isPlaying;
+        //end_game_tick &= !player.isPlaying;
+        end_game_tick &= (!audio_source.isPlaying);
         if (end_game_tick)
         {
+            Debug.Log("EndGame Tick!!");
             timer_after_all_down_s += Time.deltaTime;
         }
         if (timer_after_all_down_s > 2)
         {
             if (current_song_idx + 1 < songs.Count)
             {
+                Debug.Log("NextSong!");
                 current_song_idx += 1;
                 bool res = await FadeUtility.FadeOutAsync(canvas, 0.5f);
                 if (!res) return;
@@ -247,6 +251,7 @@ public class ClappingHandGameScript : MonoBehaviour, InputHandler
             }
             else
             {
+                Debug.Log("End!");
                 GetComponentInParent<ClappingGame>().ChangeToSettleGame();
             }
         }
@@ -285,6 +290,7 @@ public class ClappingHandGameScript : MonoBehaviour, InputHandler
     public async Task<bool> OnStartGameAsync()
     {
         FadeUtility.BlackImmediate(canvas);
+        isPlaying = false;
         await Task.Delay(2000);
         bool res = await FadeUtility.FadeInAsync(canvas, 0.5f);
         // 歌曲加载

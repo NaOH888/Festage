@@ -62,6 +62,10 @@ namespace LandMarkProcess
     public class PoseLandmark
     {
         public Vector3[] Landmarks;    // 33 个点的 world 坐标
+        private Vector3?[] smoothCache;
+
+        // 平滑系数，越小越稳定（0.1~0.3 推荐）
+        private const float ALPHA = 0.25f;
         public Vector3?[] GetValidLandmarks()
         {
             if (Landmarks == null)
@@ -84,6 +88,47 @@ namespace LandMarkProcess
 
             return valid;
         }
+        public Vector3?[] GetSmooth()
+        {
+            Vector3?[] valid = GetValidLandmarks();
+            if (valid == null)
+                return null;
+
+            if (smoothCache == null || smoothCache.Length != valid.Length)
+                smoothCache = new Vector3?[valid.Length];
+
+            Vector3?[] result = new Vector3?[valid.Length];
+
+            for (int i = 0; i < valid.Length; i++)
+            {
+                Vector3? cur = valid[i];
+                Vector3? prev = smoothCache[i];
+
+                if (cur == null)
+                {
+                    // 当前不可见，维持上一帧的值（防抽动）
+                    result[i] = prev;
+                    continue;
+                }
+
+                if (prev == null)
+                {
+                    // 第一次出现，直接赋值
+                    smoothCache[i] = cur;
+                    result[i] = cur;
+                    continue;
+                }
+
+                // 低通：prev + alpha*(cur - prev)
+                Vector3 p = prev.Value + (cur.Value - prev.Value) * ALPHA;
+
+                smoothCache[i] = p;
+                result[i] = p;
+            }
+
+            return result;
+        }
+
     }
 
     // 统一人物状态（未来会组合 face + hand）
