@@ -48,7 +48,7 @@ public class HandGestureDetector : IDetector
         if (gestureImage != null && feedbackSprite != null)
         {
             gestureImage.sprite = feedbackSprite;
-            gestureImage.color = Color.white; // 显示
+            gestureImage.color = Color.white;
         }
     }
     public void Update()
@@ -113,7 +113,6 @@ public class HandGestureDetector : IDetector
         {
             ThrowThisUpdate = true;
             Debug.LogWarning("右手扔球");
-            ShowGestureSprite();
         }
     }
 
@@ -128,7 +127,6 @@ public class HandGestureDetector : IDetector
         {
             PullDownThisUpdate = true;
             Debug.LogWarning("拉灯绳");
-            ShowGestureSprite();
         }
     }
 
@@ -168,7 +166,6 @@ public class HandGestureDetector : IDetector
             TaikoHitLeftThisUpdate = true;
             lastHitLeftTime = Time.time * 1000;
             Debug.LogWarning("左手敲击（太鼓达人）");
-            ShowGestureSprite();
         }
     }
 
@@ -187,7 +184,6 @@ public class HandGestureDetector : IDetector
             TaikoHitRightThisUpdate = true;
             lastHitRightTime = Time.time * 1000;
             Debug.LogWarning("右手敲击（太鼓达人）");
-            ShowGestureSprite();
         }
     }
 }
