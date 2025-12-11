@@ -1,5 +1,6 @@
 ﻿using LandMarkProcess;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class HandGestureDetector : IDetector
 {
@@ -11,6 +12,9 @@ public class HandGestureDetector : IDetector
     public bool RotateThisUpdate { get; private set; }
     public bool TaikoHitLeftThisUpdate { get; private set; }
     public bool TaikoHitRightThisUpdate { get; private set; }
+    private Image gestureImage;
+    public Sprite feedbackSprite;
+
 
     // ====== 内部缓存 ======
     private Vector3? lastWristRight;
@@ -29,13 +33,21 @@ public class HandGestureDetector : IDetector
     public HandGestureDetector(PersonState p)
     {
         person = p;
+        gestureImage = GameObject.Find("GestureImage")?.GetComponent<Image>();
     }
 
     public void Start()
     {
         Started = true;
     }
-
+    private void ShowGestureSprite()
+    {
+        if (gestureImage != null && feedbackSprite != null)
+        {
+            gestureImage.sprite = feedbackSprite;
+            gestureImage.color = Color.white; // 显示
+        }
+    }
     public void Update()
     {
         if (!Started) return;
@@ -88,7 +100,7 @@ public class HandGestureDetector : IDetector
         {
             ThrowThisUpdate = true;
             Debug.LogWarning("右手扔球");
-        }
+         }
     }
 
     // ============================================================
@@ -122,13 +134,14 @@ public class HandGestureDetector : IDetector
         {
             RotateThisUpdate = true;
             Debug.LogWarning("手腕旋转");
+            ShowGestureSprite();
         }
     }
 
     // ============================================================
     // 4. 左手敲击（太鼓达人）
     // ============================================================
-    private void DetectTaikoHitLeft(Vector3? wrist)
+    private void DetectTaikoHitLeft(Vector3? wrist)   
     {
         if (!wrist.HasValue || !lastWristLeft.HasValue) return;
 
