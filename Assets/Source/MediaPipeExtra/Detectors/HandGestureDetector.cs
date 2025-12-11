@@ -14,6 +14,9 @@ public class HandGestureDetector : IDetector
     public bool TaikoHitRightThisUpdate { get; private set; }
     private Image gestureImage;
     public Sprite feedbackSprite;
+    private Vector3 smoothWristRight;
+    private Vector3 smoothWristLeft;
+    private float smoothFactor = 0.4f;
 
 
     // ====== 内部缓存 ======
@@ -68,23 +71,33 @@ public class HandGestureDetector : IDetector
         Vector3? wristR = LM[16];
         Vector3? wristL = LM[15];
 
+        if (wristR.HasValue)
+        {
+            smoothWristRight = Vector3.Lerp(smoothWristRight, wristR.Value, smoothFactor);
+        }
+        if (wristL.HasValue)
+        {
+            smoothWristLeft = Vector3.Lerp(smoothWristLeft, wristL.Value, smoothFactor);
+        }
+
+
         // ====== 右手动作 ======
         if (wristR.HasValue && lastWristRight.HasValue)
         {
-            DetectThrowMotion(wristR.Value);
-            DetectPullDown(wristR.Value);
+            DetectThrowMotion(smoothWristRight);
+            DetectPullDown(smoothWristRight);
         }
 
         // 旋转手腕需要 16,20,22 三个点
-        DetectRotateMotion(wristR, LM);
+        DetectRotateMotion(smoothWristRight, LM);
 
         // ====== 太鼓达人 ======
-        DetectTaikoHitLeft(wristL);
-        DetectTaikoHitRight(wristR);
+        DetectTaikoHitLeft(smoothWristLeft);
+        DetectTaikoHitRight(smoothWristRight);
 
         // 记录
-        lastWristRight = wristR;
-        lastWristLeft = wristL;
+        lastWristRight = smoothWristRight;
+        lastWristLeft = smoothWristLeft;
     }
 
     // ============================================================
@@ -100,7 +113,8 @@ public class HandGestureDetector : IDetector
         {
             ThrowThisUpdate = true;
             Debug.LogWarning("右手扔球");
-         }
+            ShowGestureSprite();
+        }
     }
 
     // ============================================================
@@ -114,6 +128,7 @@ public class HandGestureDetector : IDetector
         {
             PullDownThisUpdate = true;
             Debug.LogWarning("拉灯绳");
+            ShowGestureSprite();
         }
     }
 
@@ -153,6 +168,7 @@ public class HandGestureDetector : IDetector
             TaikoHitLeftThisUpdate = true;
             lastHitLeftTime = Time.time * 1000;
             Debug.LogWarning("左手敲击（太鼓达人）");
+            ShowGestureSprite();
         }
     }
 
@@ -171,6 +187,7 @@ public class HandGestureDetector : IDetector
             TaikoHitRightThisUpdate = true;
             lastHitRightTime = Time.time * 1000;
             Debug.LogWarning("右手敲击（太鼓达人）");
+            ShowGestureSprite();
         }
     }
 }
